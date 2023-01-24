@@ -1,0 +1,19 @@
+#my-list{
+    /* height: 20rem; */
+    background-color: hsl(0, 100%, 2%);
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 1; */
+    min-height: 15rem;
+}
+#my-list:after {
+    background-color: rgb(78, 149, 149);
+    content: '\200b';
+}
+
+.scroll-images{
+    background-color: rgb(216, 222, 221);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
