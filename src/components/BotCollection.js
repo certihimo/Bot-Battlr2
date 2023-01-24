@@ -7,7 +7,6 @@ const API = "https://bot-battlr-db-json.vercel.app/api/bots"
 function BotCollection({addMyBot,removeMyBot}){
 
     const [bots,setBots] = useState([]);
-    const [fetchStatus,setFetchStatus] = useState("pending");
 
     useEffect(()=>{
         fetch(API)

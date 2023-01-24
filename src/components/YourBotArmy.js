@@ -1,6 +1,5 @@
 import React from "react";
 import '../stylesheets/YourBotArmy.css';
-import BotCard from "./BotCard";
 import MyBotCard from "./MyBotCard";
 
 // const API = "https://bot-battlr-db-json.vercel.app/api/bots"

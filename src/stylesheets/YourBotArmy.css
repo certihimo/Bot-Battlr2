@@ -1,13 +1,13 @@
 #my-list{
     /* height: 20rem; */
-    background-color: hsl(0, 100%, 2%);
+    background-color: hsl(0, 30%, 29%);
     /* position: sticky; */
+    background-color: rgb(162, 181, 137);
     /* top: 0; */
     /* z-index: 1; */
     min-height: 15rem;
 }
 #my-list:after {
-    background-color: rgb(78, 149, 149);
     content: '\200b';
 }
 
